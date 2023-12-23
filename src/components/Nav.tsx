@@ -41,7 +41,7 @@ function Nav() {
             <a className="link-styled">Support</a>
           </li>
           <li>
-            <img src={Search} alt="" />
+            <img src={Search} alt="Search" />
             Search
           </li>
           <li>

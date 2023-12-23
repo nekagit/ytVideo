@@ -1,7 +1,13 @@
 import "./App.css";
+import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 function App() {
-  return <Nav />;
+  return (
+    <div className="App">
+      <Nav />
+      <Jumbotron />
+    </div>
+  );
 }
 
 export default App;
